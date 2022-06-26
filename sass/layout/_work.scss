@@ -1,0 +1,32 @@
+.work__list {
+    display: flex;
+}
+
+.work__item {
+    width: 370px;
+    height: 294px;
+    flex-basis: calc(100% / 3 - 30px);
+    position: relative;
+}
+
+.work__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.work__frame {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    padding: 30px 80px;
+}
+
+.work__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.88;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
