@@ -1,12 +1,15 @@
-@import"./base/reset";
+@import"./utils/variable";
+@import"./utils/mixins";
 @import"./base/common";
+@import"./base/reset";
 @import"./components/container";
 @import"./components/accent";
+@import"./utils/hidden";
+@import"./utils/placeholders";
 @import"./components/btn";
 @import"./components/logo";
 @import"./components/title";
 @import"./components/socials";
-@import"./utils/hidden";
 @import"./layout/header";
 @import"./layout/hero";
 @import"./components/modal";

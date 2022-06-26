@@ -7,10 +7,9 @@
     height: 294px;
     flex-basis: calc(100% / 3 - 30px);
     position: relative;
-}
-
-.work__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .work__frame {
@@ -23,10 +22,7 @@
 }
 
 .work__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 0.88;
+    @include font(700, 14px, 0.88, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }

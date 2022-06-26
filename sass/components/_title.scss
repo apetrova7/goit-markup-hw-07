@@ -1,16 +1,11 @@
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include font(700, 36px, 1.16, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
-
-.title--light {
-    color: var(--secondary-text-color);
-}
-
-.title--dark {
-    color: var(--title-text-color);
+    &--light {
+        color: $secondary-text-color;
+    }
+    &--dark {
+        color: $title-text-color;
+    }
 }
